@@ -20,10 +20,10 @@ ResQMeal is a web application I developed to connect people with excess food to 
 ## Running Locally
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/google-resqmeal.git
+git clone https://github.com/yourusername/Google-ResQMeal.git
 
 # Navigate to project directory
-cd google-resqmeal
+cd Google-ResQMeal
 
 # Install dependencies
 npm install
