@@ -40,7 +40,7 @@ const Result = () => {
       <footer className="py-8 border-t">
         <div className="container px-4 md:px-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 ResQMeal. Making food donation easier with AI-powered recommendations.
+            © 2025 ResQMeal. Making food donation easier with smart recommendations.
           </p>
         </div>
       </footer>

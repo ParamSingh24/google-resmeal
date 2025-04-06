@@ -14,7 +14,7 @@ const Index = () => {
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
                 Helping you connect your excess food with those who need it most.
-                Get AI-powered recommendations for where to donate your food.
+                Get smart recommendations for where to donate your food.
               </p>
             </div>
             
@@ -131,7 +131,7 @@ const Index = () => {
       <footer className="py-8 border-t">
         <div className="container px-4 md:px-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 ResQMeal. Making food donation easier with AI-powered recommendations.
+            © 2025 ResQMeal. Making food donation easier with smart recommendations.
           </p>
         </div>
       </footer>
