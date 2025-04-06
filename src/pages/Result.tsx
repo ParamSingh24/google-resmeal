@@ -18,7 +18,7 @@ const Result = () => {
         <div className="container px-4 md:px-6">
           <h1 className="text-2xl md:text-3xl font-bold text-white text-center">
             <span onClick={() => window.location.href = "/"} className="cursor-pointer">
-              <span>ResQ</span>Meal
+              <span>Google ResQ</span>Meal
             </span>
           </h1>
         </div>
@@ -40,7 +40,7 @@ const Result = () => {
       <footer className="py-8 border-t">
         <div className="container px-4 md:px-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 ResQMeal. Connecting food donations to where they're needed most.
+            © 2025 Google ResQMeal. Connecting food donations to where they're needed most.
           </p>
         </div>
       </footer>

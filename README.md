@@ -1,5 +1,5 @@
 
-# ResQMeal
+# Google ResQMeal
 
 ## About
 ResQMeal is a web application I developed to connect people with excess food to donation centers and organizations in need. The app suggests the best places to donate food based on type, quantity, and location.
@@ -20,10 +20,10 @@ ResQMeal is a web application I developed to connect people with excess food to 
 ## Running Locally
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/resqmeal.git
+git clone https://github.com/yourusername/google-resqmeal.git
 
 # Navigate to project directory
-cd resqmeal
+cd google-resqmeal
 
 # Install dependencies
 npm install
