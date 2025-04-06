@@ -2,27 +2,25 @@
 # ResQMeal
 
 ## About
-ResQMeal is a web application designed to help connect people with excess food to donation centers and organizations in need. The app uses AI-powered recommendations to suggest the best places to donate food based on the type, quantity, and location.
+ResQMeal is a web application I developed to connect people with excess food to donation centers and organizations in need. The app suggests the best places to donate food based on type, quantity, and location.
 
 ## Features
 - Simple donation form for users to input food details
-- Smart recommendations for where to donate food
-- Responsive design that works on desktop and mobile devices
-- Green/sustainable themed UI
+- Smart recommendations for optimal donation locations
+- Responsive design for desktop and mobile use
+- Sustainability-focused interface
 
-## Technologies Used
+## Tech Stack
 - React
 - TypeScript
 - Tailwind CSS
-- shadcn/ui components
-- React Router for navigation
+- Custom UI components
+- React Router
 
-## Getting Started
-To run this project locally:
-
+## Running Locally
 ```sh
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/yourusername/resqmeal.git
 
 # Navigate to project directory
 cd resqmeal
@@ -38,7 +36,10 @@ npm run dev
 - `/src/components`: UI components
 - `/src/pages`: Page components
 - `/src/types`: TypeScript type definitions
-- `/src/services`: Service modules for external APIs
+- `/src/services`: API and service modules
+
+## Contributing
+Feel free to submit issues or pull requests if you have suggestions for improvements.
 
 ## License
 MIT

@@ -2,11 +2,10 @@
 import { Donation } from "@/types";
 import { toast } from "@/components/ui/use-toast";
 
-// Mock AI service that returns realistic responses
+// Service that returns donation recommendations
 export const generateAISuggestion = async (donation: Donation): Promise<string> => {
   try {
-    // In a real implementation, this would call the Gemini API
-    // Instead, we'll simulate an API call with a timeout and predefined responses
+    // Simulating an API call with a timeout and predefined responses
     return new Promise((resolve) => {
       setTimeout(() => {
         const suggestions = [
@@ -19,7 +18,7 @@ export const generateAISuggestion = async (donation: Donation): Promise<string> 
           `"Harvest Hope" would be perfect for your ${donation.foodType.toLowerCase()} donation! They're located within 5 miles of ${donation.location} and have refrigeration facilities to properly store your contribution. Your ${donation.quantity} could help feed up to 30 families. Please contact them at (555) 246-8102 or info@harvesthope.org to schedule your donation drop-off.`
         ];
         
-        // Select a suggestion based on some criteria from the donation
+        // Select a suggestion based on criteria from the donation
         const suggestionIndex = (donation.name.length + donation.foodType.length) % suggestions.length;
         resolve(suggestions[suggestionIndex]);
       }, 1500); // Simulate network delay

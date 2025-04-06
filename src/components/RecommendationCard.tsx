@@ -14,7 +14,7 @@ export function RecommendationCard({ donation }: RecommendationCardProps) {
   return (
     <Card className="w-full max-w-3xl">
       <CardHeader className="bg-primary/10 pb-4">
-        <CardTitle className="text-2xl text-center">Your AI-Powered Recommendation</CardTitle>
+        <CardTitle className="text-2xl text-center">Your Personalized Recommendation</CardTitle>
       </CardHeader>
       <CardContent className="pt-6 pb-4 space-y-6">
         <div className="prose prose-sm sm:prose-base">
